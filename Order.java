@@ -154,7 +154,9 @@ public class Order implements Serializable {
      * @return String
      */
    public String toString(){
-       String orderPrint = "ID: " + orderID +  "\nTable: " + orderTable.getTableNumber() + " \n " + "Meals: " + getOrderMeals() + " \n " + "Price: " + getOrderPrice() + "€"+ " \n " + "Status: " + getOrderStatus() + " \n" + "***********************************" + "\n";
+       String orderPrint = "ID: " + orderID +  "\nTable: " + orderTable.getTableNumber() + " \n " + "Meals: " 
+           + getOrderMeals() + " \n " + "Price: " + 
+           getOrderPrice() + "€"+ " \n " + "Status: " + getOrderStatus() + " \n" + "***********************************" + "\n";
        return orderPrint;
    }
     /**
